@@ -22,7 +22,7 @@ The API allows users to register, authenticate, create blog posts, manage their 
 
 ## 📁 Project Structure
 ```
-src/
+
 ├── config/
 ├── controllers/
 ├── middleware/
