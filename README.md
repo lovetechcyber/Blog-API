@@ -73,21 +73,21 @@ http://localhost:5000
 ## 🔐 Authentication
 
 ### Register
-**POST** `/api/auth/register`
+**POST** `/api/register`
 ```json
 {
-  "name": "John Doe",
-  "email": "john@example.com",
-  "password": "password123"
+  "name": "Prince",
+  "email": "prince@test.com",
+  "password": "123456"
 }
 ```
 
 ### Login
-**POST** `/api/auth/login`
+**POST** `/api/login`
 ```json
 {
-  "email": "john@example.com",
-  "password": "password123"
+  "email": "prince@test.com",
+  "password": "123456"
 }
 ```
 
@@ -129,8 +129,6 @@ Supports:
 - author
 - status (authenticated users only)
 
-### Get Single Published Post
-**GET** `/api/posts/:slug`
 
 ### Update Post (Author Only)
 **PUT** `/api/posts/:id`
